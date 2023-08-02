@@ -113,6 +113,11 @@ nav a {
     width: 40%;
 }
 
+.news-box a {
+    text-decoration: none;
+    color: rgb(8, 119, 194);
+}
+
 .news-box {
     display: flex;
     margin-left: 24px;
@@ -376,7 +381,8 @@ footer h4 {
         display: flex;
         flex-direction: column;
         border: none;
-        padding-bottom: 48px;
+        margin-bottom: 48px;
+        padding-bottom: 8px;
     }
 
     .news-box-text  {
@@ -385,13 +391,8 @@ footer h4 {
         margin-top: 24px;
     }
 
-    .news-box-text a {
-        color: rgb(8, 119, 194);
-        
-    }
-
     .news-box:last-child {
-        padding-bottom: 32px;
+        margin-bottom: 32px;
     }
 
     .course {
