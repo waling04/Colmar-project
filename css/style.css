@@ -37,6 +37,10 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover, .footer-menu a:hover {
+  color: rgb(194, 188, 190);
+}
+
 .hero {
   display: flex;
   width: 100%;
