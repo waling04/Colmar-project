@@ -1,0 +1,310 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+    color: rgb(66, 64, 65);
+    margin: 0px;
+    padding: 0px;
+}
+
+.mobile {
+    display: none;
+}
+
+/* desktop */
+
+/* section 1 hero */
+
+nav .desktop {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    margin: 0px 24px;
+}
+
+.nav-loco {
+    display: flex;
+    align-items: center;
+    height: 32px;
+}
+
+span {
+    font-weight: 300;
+    color: rgb(140, 136, 137);
+}
+
+nav a {
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    background-color: rgb(206, 202, 203);
+    padding: 32px 24px;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.hero-text h2 {
+    font-size: 46px;
+    margin-bottom: 24px;
+}
+
+.hero-text h3 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.hero-text button {
+    border: none;
+    background-color: rgb(66, 64, 65);
+    color: white;
+    padding: 8px 0px;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background-color: rgb(140, 136, 137);
+}
+
+
+/* section 2 information */
+
+.information {
+    display: flex;
+    width: 100%;
+    margin-top: 32px;
+    margin-left: 24px;
+    margin-bottom: 32px;
+}
+
+.information-highlight {
+    width: 60%;
+}
+
+.information-highlight img {
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.information-highlight h2 {
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.information-highlight h4 {
+    width: 90%;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.information-highlight h4:last-child {
+    margin-top: 32px;
+    font-weight: 600;
+}
+
+.information-news {
+    width: 40%;
+}
+
+.news-box {
+    display: flex;
+    margin-left: 24px;
+    align-items: center;
+    border: solid 1px rgb(194, 188, 190);
+    margin-bottom: 2px;
+}
+
+.news-box:hover {
+    background-color: rgb(206, 202, 203);
+}
+
+.news-box img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.news-box-text {
+    width: 65%;
+}
+
+.news-box-text h4 {
+    margin: 8px 0px;
+    font-weight: 300;
+}
+
+
+/* section 3 course */
+
+.course {
+    background-color: rgb(226, 225, 226);
+    padding: 32px 0px;
+
+}
+
+.course h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.list-of-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 72px;
+}
+
+.course-up, .course-down {
+    display: flex;
+    justify-content: center;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+}
+
+.course-box {
+    width: auto;
+    background-color: #fff;
+    margin: 32px;
+}
+
+.course-box:hover {
+    background-color: rgb(194, 188, 190);
+}
+
+.course-box a, .thesis-other-box a {
+    text-decoration: none;
+}
+
+.course-box-text {
+    margin-left: 16px;
+    padding-bottom: 24px;
+}
+
+.course-box-text h3 {
+    font-size: 20px;
+}
+
+.course-box h4, .course-box-text h5 {
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+
+/* section 4 thesis */ 
+
+.thesis {
+    padding: 24px;
+}
+
+.thesis h2 {
+    text-align: center;
+    font-size: 40px;
+    padding: 8px 0px;
+}
+
+.thesis-content {
+    padding-top: 24px;
+    display: flex;
+}
+
+.thesis-highlight {
+    width: 60%;
+    margin-right: 24px;
+    padding-bottom: 8px;
+}
+
+video {
+    width: 100%;
+}
+
+.thesis-other {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.thesis-other img {
+    width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.thesis-other-box {
+    display: flex;
+    align-items: center;
+}
+
+.thesis-other-box:hover {
+    background-color: rgb(194, 188, 190)
+}
+
+.thesis-other-text {
+    width: 65%;
+}
+
+.thesis-other-text h3 {
+    font-size: 24px;
+}
+
+.thesis-other-text h4 {
+    font-weight: 400;
+    margin: 8px 0px;
+}
+
+.thesis-highlight h3 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.thesis-highlight h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* footer */ 
+
+footer {
+    border-top: 1px solid rgb(194, 188, 190);
+    height: 64px;
+    padding: 0px 24px;
+    padding-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a {
+    margin-left: 16px;
+    text-decoration: none;
+}
+
+footer h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* mobile */
+
+@media screen and (max-width: 425px) {
+    .desktop, nav .desktop {
+        display: none;
+    }
+
+    nav .mobile {
+        display: flex;
+    } 
+}
+
+
+
